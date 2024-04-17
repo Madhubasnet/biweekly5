@@ -5,6 +5,8 @@
     while (gradecounter <= 5)
     {
         Console.Write("Enter the grade: ");
+        Console.Write("Enter the student name: ");
+        
         int grade = Convert.ToInt32(Console.ReadLine());
         total = total + grade;
         gradecounter = gradecounter + 1;
